@@ -1,0 +1,18 @@
+body{
+  cursor: pointer;
+}
+.player-music{
+  background-color: #0f172a !important;
+  height: 6rem;
+}
+.rhap_time, .rhap_current-time{
+  color: white;
+}
+.bg-gray-900 {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity)) !important;
+}
+.text-teal-400 {
+    --tw-text-opacity: 1  !important;
+    color: rgb(45 212 191 / var(--tw-text-opacity))  !important;
+}
