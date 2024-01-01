@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Songs.Provider value={{ DataSongs, song, hundlesetSong }}>
         <Navbar />
-        <div className="grid grid-cols-3 bg-slate-700 h-screen-navbar-player overflow-hidden">
+        <div className="lg:grid grid-cols-3 bg-slate-700 h-screen-navbar-player sm:overflow-hidden overflow-y-scroll">
           {/* space 1 */}
           <DetailSong />
           {/* space 2 */}

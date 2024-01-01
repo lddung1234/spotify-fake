@@ -16,3 +16,39 @@ body{
     --tw-text-opacity: 1  !important;
     color: rgb(45 212 191 / var(--tw-text-opacity))  !important;
 }
+.img-mini{
+  animation: animName 4s linear infinite;
+}
+@keyframes animName {
+ 0%{
+    transform: rotate(0deg);
+   }
+100%{
+    transform: rotate(360deg);
+   }
+}
+.force-overflow
+{
+	min-height: 450px;
+}
+
+
+
+#style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #334155;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #334155;
+}
